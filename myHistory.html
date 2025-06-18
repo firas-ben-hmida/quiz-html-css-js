@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz History</title>
+    <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+    <h1>📋 My Quiz History</h1>
+     <div class="card">
+        <h2>💻JAVASCRIPT Quiz</h2>
+        <div class="history-container" data-quiz="JavaScript"></div>
+    </div>
+
+    <div class="card">
+        <h2>🐘PHP Quiz</h2>
+        <div class="history-container" data-quiz="PHP"></div>
+    </div>
+
+    <div class="card">
+        <h2>🎾TENNIS Quiz</h2>
+        <div class="history-container" data-quiz="Tennis"></div>
+    </div>
+    <button class="score-button" onclick="clearHistory()">🗑️ Clear History</button>
+    <button class="score-button" onclick="window.location.href='quiz.html'">🔙 Back</button>
+
+    <script src="myHistory.js"></script>
+</body>
+</html>

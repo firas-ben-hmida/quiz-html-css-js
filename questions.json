@@ -1,0 +1,248 @@
+{
+  "JavaScript": [
+    {
+        "question": "What keyword is used to declare a constant in JavaScript?",
+        "choice1": "let",
+        "choice2": "var",
+        "choice3": "const",
+        "choice4": "static",
+        "answer": "const"
+    },
+    {
+        "question": "What is the output of '2' + 2 in JavaScript?",
+        "choice1": "22",
+        "choice2": "4",
+        "choice3": "NaN",
+        "choice4": "undefined",
+        "answer": "22"
+    },
+    {
+        "question": "Which function is used to parse a string to int?",
+        "choice1": "parseInt()",
+        "choice2": "parseFloat()",
+        "choice3": "Number()",
+        "choice4": "int()",
+        "answer": "parseInt()"
+    },
+    {
+        "question": "How do you write a comment in JavaScript?",
+        "choice1": "<!-- comment -->",
+        "choice2": "# comment",
+        "choice3": "// comment",
+        "choice4": "/* comment */",
+        "answer": "// comment"
+    },
+    {
+        "question": "Which symbol is used for strict equality?",
+        "choice1": "==",
+        "choice2": "!=",
+        "choice3": "===",
+        "choice4": "=",
+        "answer": "==="
+    },
+    {
+        "question": "Which company developed JavaScript?",
+        "choice1": "Google",
+        "choice2": "Microsoft",
+        "choice3": "Netscape",
+        "choice4": "Apple",
+        "answer": "Netscape"
+    },
+    {
+        "question": "Which method adds an element to the end of an array?",
+        "choice1": "push()",
+        "choice2": "pop()",
+        "choice3": "shift()",
+        "choice4": "unshift()",
+        "answer": "push()"
+    },
+    {
+        "question": "How do you declare an arrow function?",
+        "choice1": "function => {}",
+        "choice2": "() => {}",
+        "choice3": "() -> {}",
+        "choice4": "fn() => {}",
+        "answer": "() => {}"
+    },
+    {
+        "question": "What is the result of typeof null?",
+        "choice1": "null",
+        "choice2": "object",
+        "choice3": "undefined",
+        "choice4": "number",
+        "answer": "object"
+    },
+    {
+        "question": "What is a closure in JavaScript?",
+        "choice1": "A function inside a loop",
+        "choice2": "A variable",
+        "choice3": "A function that remembers its scope",
+        "choice4": "A class",
+        "answer": "A function that remembers its scope"
+    }
+  ],
+  "PHP": [
+    {
+        "question": "What does PHP stand for?",
+        "choice1": "Personal Home Page",
+        "choice2": "Private Home Page",
+        "choice3": "PHP Hypertext Preprocessor",
+        "choice4": "Public Home Page",
+        "answer": "PHP Hypertext Preprocessor"
+    },
+    {
+        "question": "Which symbol is used to declare a variable in PHP?",
+        "choice1": "$",
+        "choice2": "#",
+        "choice3": "@",
+        "choice4": "&",
+        "answer": "$"
+    },
+    {
+        "question": "How do you start a PHP block?",
+        "choice1": "<php>",
+        "choice2": "<?php",
+        "choice3": "<script>",
+        "choice4": "<?",
+        "answer": "<?php"
+    },
+    {
+        "question": "Which function is used to output text in PHP?",
+        "choice1": "print()",
+        "choice2": "echo()",
+        "choice3": "console.log()",
+        "choice4": "display()",
+        "answer": "echo()"
+    },
+    {
+        "question": "Which superglobal holds form data submitted via POST?",
+        "choice1": "$_POST",
+        "choice2": "$_GET",
+        "choice3": "$_REQUEST",
+        "choice4": "$_FORM",
+        "answer": "$_POST"
+    },
+    {
+        "question": "How do you define a constant in PHP?",
+        "choice1": "define()",
+        "choice2": "const",
+        "choice3": "#define",
+        "choice4": "constant",
+        "answer": "define()"
+    },
+    {
+        "question": "Which operator is used to concatenate strings?",
+        "choice1": "+",
+        "choice2": ".",
+        "choice3": "&",
+        "choice4": ",",
+        "answer": "."
+    },
+    {
+        "question": "Which version of PHP introduced type declarations?",
+        "choice1": "5.6",
+        "choice2": "7.0",
+        "choice3": "8.0",
+        "choice4": "5.3",
+        "answer": "7.0"
+    },
+    {
+        "question": "Which statement is used to include a file?",
+        "choice1": "include",
+        "choice2": "import",
+        "choice3": "load",
+        "choice4": "insert",
+        "answer": "include"
+    },
+    {
+        "question": "What is the default file extension for PHP files?",
+        "choice1": ".html",
+        "choice2": ".php",
+        "choice3": ".js",
+        "choice4": ".css",
+        "answer": ".php"
+    }
+  ],
+  "Tennis": [
+    {
+        "question": "What is the term for a score of 40-40?",
+        "choice1": "Match point",
+        "choice2": "Set point",
+        "choice3": "Deuce",
+        "choice4": "Advantage",
+        "answer": "Deuce"
+    },
+    {
+        "question": "Which Grand Slam is played on clay?",
+        "choice1": "Wimbledon",
+        "choice2": "US Open",
+        "choice3": "French Open",
+        "choice4": "Australian Open",
+        "answer": "French Open"
+    },
+    {
+        "question": "Who has won the most Grand Slam titles in men’s singles (as of 2024)?",
+        "choice1": "Roger Federer",
+        "choice2": "Rafael Nadal",
+        "choice3": "Novak Djokovic",
+        "choice4": "Pete Sampras",
+        "answer": "Novak Djokovic"
+    },
+    {
+        "question": "What is a 'love' score in tennis?",
+        "choice1": "0",
+        "choice2": "15",
+        "choice3": "30",
+        "choice4": "40",
+        "answer": "0"
+    },
+    {
+        "question": "How many sets must men win in Grand Slam matches?",
+        "choice1": "2",
+        "choice2": "3",
+        "choice3": "4",
+        "choice4": "5",
+        "answer": "3"
+    },
+    {
+        "question": "What surface is Wimbledon played on?",
+        "choice1": "Clay",
+        "choice2": "Grass",
+        "choice3": "Hard",
+        "choice4": "Carpet",
+        "answer": "Grass"
+    },
+    {
+        "question": "What is the term for winning all four Grand Slam titles in one year?",
+        "choice1": "Grand Slam",
+        "choice2": "Career Slam",
+        "choice3": "Calendar Slam",
+        "choice4": "Super Slam",
+        "answer": "Calendar Slam"
+    },
+    {
+        "question": "What does 'ACE' mean in tennis?",
+        "choice1": "A missed shot",
+        "choice2": "A perfect return",
+        "choice3": "A serve not touched by opponent",
+        "choice4": "A double fault",
+        "answer": "A serve not touched by opponent"
+    },
+    {
+        "question": "What is the minimum number of games to win a set?",
+        "choice1": "4",
+        "choice2": "5",
+        "choice3": "6",
+        "choice4": "7",
+        "answer": "6"
+    },
+    {
+        "question": "Which player is known as the King of Clay?",
+        "choice1": "Roger Federer",
+        "choice2": "Novak Djokovic",
+        "choice3": "Rafael Nadal",
+        "choice4": "Andy Murray",
+        "answer": "Rafael Nadal"
+    }
+  ]
+}

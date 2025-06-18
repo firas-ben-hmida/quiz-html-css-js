@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    color: rgb(83, 175, 236);
+}
+.card {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    margin: 20px auto;
+    padding: 20px;
+    width: 90%;
+    max-width: 400px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+}
+
+.card h2 {
+    font-size: 24px;
+    margin: 0;
+    color: rgb(8, 16, 239);
+}
+
+.card p {
+    margin: 10px 0 15px;
+    color: #555;
+}
+
+.card button {
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 5px;
+    min-width: 125px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(83, 175, 236);
+}
+
+.score-button {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 5px;
+    min-width: 125px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(83, 175, 236);
+    
+}
+.history-container {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    font-size: 0.95rem;
+    color: #333;
+}
+
+.history-container ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.history-container li {
+    padding: 6px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.history-container li:last-child {
+    border-bottom: none;
+}
+
+.history-container p {
+    margin: 0;
+    font-style: italic;
+    color: #888;
+    text-align: center;
+}
