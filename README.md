@@ -11,9 +11,9 @@ Chaque quiz contient **10 questions**, avec 4 choix de réponses par question.
 
 ---
 
-## 🔗 Démo en ligne
+## 🔗 Démo Quiz
 
-📍 Essaie l'application ici :  
+📍 Essaie le quie ici :  
 👉 [https://quiz-my-history.netlify.app/](https://quiz-my-history.netlify.app/)
 
 ---
