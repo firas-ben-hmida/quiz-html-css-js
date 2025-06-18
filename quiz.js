@@ -96,12 +96,6 @@ function showResult(quizChoice) {
     question.textContent = "🎉 Quiz Finished!";
     choices.innerHTML = `
     <p>Your final score is ${score}/${questions.length}</p>
-    <button id="back-btn">🏠 Back</button>
     `;
     nextBtn.classList.add("hidden");
-
-    const backBtn = document.getElementById("back-btn");
-    backBtn.addEventListener("click", () => {
-        window.location.href = "quiz.html";
-    });
 }

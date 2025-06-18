@@ -26,8 +26,12 @@ function loadHistory() {
 }
 
 function clearHistory() {
-    localStorage.removeItem("quizHistory");
-    loadHistory();
+    const confirmation = confirm("Are you sure you want to clear the quiz history?");
+    if (confirmation) {
+        localStorage.removeItem("quizHistory");
+        loadHistory();
+    }
 }
+
 
 window.onload = loadHistory;
